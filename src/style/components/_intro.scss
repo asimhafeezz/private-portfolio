@@ -1,0 +1,42 @@
+.intro {
+	@include flex-center;
+	align-items: flex-start;
+	flex-direction: column;
+	height: 85vh;
+	padding: $xl-pad;
+	h1 {
+		font-size: $xl-font;
+		color: $blue;
+	}
+	p {
+		max-width: 720px;
+		font-size: $md-font;
+		line-height: 1.3;
+	}
+	button {
+		@include button;
+		margin: $xl-marg 0;
+	}
+
+	@include smallerThan(780px) {
+		h1 {
+			font-size: 80px;
+		}
+	}
+
+	@include smallerThan(680px) {
+		h1 {
+			font-size: 54px;
+		}
+		p {
+			font-size: 17px;
+			padding: 10px 0;
+		}
+	}
+
+	@include smallerThan(450px) {
+		h1 {
+			font-size: 40px;
+		}
+	}
+}

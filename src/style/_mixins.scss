@@ -1,0 +1,50 @@
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin flex-end {
+	display: flex;
+	justify-content: flex-end;
+}
+
+@mixin flex-between {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@mixin card {
+}
+
+@mixin container {
+	margin: 0rem auto;
+	max-width: 1150px;
+}
+
+@mixin button {
+	padding: $md-pad;
+	border: 2px solid $blue;
+	cursor: pointer;
+	background-color: transparent;
+	color: $half-white;
+	font-size: $lg-font;
+	border-radius: $b-radius;
+	transition: 0.2s;
+	&:hover {
+		background-color: rgba(81, 135, 216, 0.2);
+	}
+
+	@include smallerThan(500px) {
+		font-size: 19px;
+		padding: $sm-font;
+	}
+}
+
+//media queries
+@mixin smallerThan($pixels) {
+	@media (max-width: $pixels) {
+		@content;
+	}
+}

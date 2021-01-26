@@ -1,0 +1,16 @@
+.appbar {
+	@include flex-between;
+	padding: $xl-pad;
+
+	h2 {
+		border-bottom: 2px solid $dark;
+		cursor: pointer;
+		transition: 0.2s;
+		font-size: 20px;
+		color: $blue;
+		&:hover {
+			border-bottom: 2px solid $blue;
+			padding: $sm-pad 0;
+		}
+	}
+}
