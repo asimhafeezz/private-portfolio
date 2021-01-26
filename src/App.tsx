@@ -1,11 +1,12 @@
 import './style/main.scss'
-import { Appbar, Intro } from './components'
+import { Appbar, Intro, Aboutme } from './components'
 
 function App() {
 	return (
 		<div className='App'>
 			<Appbar />
 			<Intro />
+			<Aboutme />
 		</div>
 	)
 }

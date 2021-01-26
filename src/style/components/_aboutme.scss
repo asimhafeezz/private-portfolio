@@ -1,0 +1,23 @@
+.aboutme {
+	@include grid;
+	grid-template-columns: repeat(2, 1fr);
+	place-items: center;
+	margin: $lg-pad 0;
+	padding: 0 $lg-pad;
+	.content {
+		p {
+			padding: $lg-pad 0;
+		}
+	}
+	img {
+		// display: block;
+		// aspect-ratio: 5/4;
+		// width: 430px;
+		max-width: 340px;
+		border-radius: 50%;
+	}
+
+	@include smallerThan(800px) {
+		grid-template-columns: 1fr;
+	}
+}

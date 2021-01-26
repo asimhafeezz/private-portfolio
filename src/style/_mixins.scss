@@ -23,6 +23,11 @@
 	max-width: 1150px;
 }
 
+@mixin grid {
+	display: grid;
+	gap: 1.5rem;
+}
+
 @mixin button {
 	padding: $md-pad;
 	border: 2px solid $blue;
