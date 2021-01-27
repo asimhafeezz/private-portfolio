@@ -29,6 +29,9 @@ export const Aboutme: React.FC = () => {
 								<b>Typescript</b>
 							</li>
 							<li>
+								<b>React Native</b>
+							</li>
+							<li>
 								<b>React js</b>
 							</li>
 							<li>
