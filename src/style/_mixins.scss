@@ -15,7 +15,22 @@
 	align-items: center;
 }
 
+@mixin flex-around {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
 @mixin card {
+	padding: $lg-pad;
+	box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.3);
+	min-height: 360px;
+	@include flex-around;
+	transition: 0.15s;
+	cursor: default;
+	&:hover {
+		transform: translateY(-5px);
+	}
 }
 
 @mixin container {

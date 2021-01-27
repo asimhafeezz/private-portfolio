@@ -1,0 +1,38 @@
+.projects {
+	h2 {
+		font-size: 40px;
+		margin-bottom: 20px;
+		color: $blue;
+	}
+	.cards {
+		@include grid;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+		.card {
+			@include card;
+			.head {
+				@include flex-between;
+				margin-bottom: 35px;
+				h2 {
+					font-weight: 500;
+				}
+			}
+			.content {
+				@include flex-between;
+				align-items: flex-start;
+				justify-content: space-around;
+				flex-direction: column;
+				margin-bottom: 35px;
+				p:nth-child(odd) {
+					margin-bottom: $lg-marg;
+				}
+			}
+			.links {
+				@include flex-between;
+			}
+		}
+	}
+	@include smallerThan(800px) {
+		margin-top: 250px;
+	}
+}

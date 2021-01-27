@@ -2,8 +2,8 @@
 	@include grid;
 	grid-template-columns: 2fr 1.5fr;
 	place-items: center;
-	margin: $lg-pad 0;
-	height: 80vh;
+	margin: 150px 0;
+	// height: 80vh;
 	.content {
 		p {
 			padding: $lg-pad 0;
@@ -11,7 +11,7 @@
 			font: 600;
 		}
 		h2 {
-			font-size: 35px;
+			font-size: 40px;
 			margin-bottom: 20px;
 			color: $blue;
 		}
@@ -22,7 +22,7 @@
 			grid-template-columns: repeat(2, 1fr);
 
 			li {
-				display: inline-block;
+				display: flex;
 			}
 		}
 	}

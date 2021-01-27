@@ -1,3 +1,5 @@
+import rightArrowIcon from '../icons/right-arrow.png'
+
 export const Aboutme: React.FC = () => {
 	return (
 		<div className='container'>
@@ -16,11 +18,26 @@ export const Aboutme: React.FC = () => {
 					</p>
 					<p>Technologies i am working on,</p>
 					<ul>
-						<li>Javascript (ES6+)</li>
-						<li>Html (S)CSS</li>
-						<li>Typescript</li>
-						<li>React js</li>
-						<li>Node js</li>
+						<li>
+							<img src={rightArrowIcon} alt='right-arrow' />
+							Javascript (ES6+)
+						</li>
+						<li>
+							<img src={rightArrowIcon} alt='right-arrow' />
+							Html (S)CSS
+						</li>
+						<li>
+							<img src={rightArrowIcon} alt='right-arrow' />
+							Typescript
+						</li>
+						<li>
+							<img src={rightArrowIcon} alt='right-arrow' />
+							React js
+						</li>
+						<li>
+							<img src={rightArrowIcon} alt='right-arrow' />
+							Node js
+						</li>
 					</ul>
 				</section>
 				<section className='image'>
