@@ -7,6 +7,11 @@
 		font-size: $xl-font;
 		color: $blue;
 	}
+	h2 {
+		font-size: $xl-font;
+		color: $blue;
+		opacity: 0.5;
+	}
 	p {
 		max-width: 720px;
 		font-size: $md-font;
@@ -18,13 +23,15 @@
 	}
 
 	@include smallerThan(780px) {
-		h1 {
+		h1,
+		h2 {
 			font-size: 80px;
 		}
 	}
 
 	@include smallerThan(680px) {
-		h1 {
+		h1,
+		h2 {
 			font-size: 54px;
 		}
 		p {
