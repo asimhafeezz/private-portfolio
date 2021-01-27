@@ -1,9 +1,9 @@
 export const Aboutme: React.FC = () => {
 	return (
 		<div className='container'>
-			<h2>About Me</h2>
 			<section className='aboutme'>
 				<section className='content'>
+					<h2>About Me</h2>
 					<p>
 						Hi! I’m is Asim, a Front-End Software Engineer based in Sarai
 						Alamgir.
@@ -15,8 +15,15 @@ export const Aboutme: React.FC = () => {
 						more efficient.
 					</p>
 					<p>Technologies i am working on,</p>
+					<ul>
+						<li>Javascript (ES6+)</li>
+						<li>Html (S)CSS</li>
+						<li>Typescript</li>
+						<li>React js</li>
+						<li>Node js</li>
+					</ul>
 				</section>
-				<section>
+				<section className='image'>
 					<img src='/asim.jpg' alt='personal-pic' />
 				</section>
 			</section>

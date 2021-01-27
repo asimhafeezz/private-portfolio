@@ -1,6 +1,6 @@
 .appbar {
 	@include flex-between;
-	padding: $xl-pad;
+	// padding: $xl-pad;
 
 	h2 {
 		border-bottom: 2px solid $dark;
@@ -9,9 +9,9 @@
 		font-size: 20px;
 		color: $blue;
 		font-weight: 500;
+		padding: $sm-pad 0;
 		&:hover {
 			border-bottom: 2px solid $blue;
-			padding: $sm-pad 0;
 		}
 	}
 }
