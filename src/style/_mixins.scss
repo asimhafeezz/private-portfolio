@@ -15,6 +15,14 @@
 	align-items: center;
 }
 
+@mixin button-style-content {
+	display: inline-block;
+	border: 2px solid $blue;
+	padding: $md-pad $lg-pad;
+	background-color: rgba(81, 135, 216, 0.2);
+	border-radius: 20px;
+}
+
 @mixin flex-around {
 	display: flex;
 	flex-direction: column;

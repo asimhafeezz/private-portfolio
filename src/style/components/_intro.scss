@@ -2,7 +2,7 @@
 	@include flex-center;
 	align-items: flex-start;
 	flex-direction: column;
-	height: 80vh;
+	height: 85vh;
 	h1 {
 		font-size: $xl-font;
 		color: $blue;
@@ -41,7 +41,8 @@
 	}
 
 	@include smallerThan(450px) {
-		h1 {
+		h1,
+		h2 {
 			font-size: 40px;
 		}
 	}
