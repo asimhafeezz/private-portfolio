@@ -1,4 +1,4 @@
-import rightArrowIcon from '../icons/right-arrow.png'
+// import rightArrowIcon from '../icons/right-arrow.png'
 
 export const Aboutme: React.FC = () => {
 	return (
@@ -9,13 +9,10 @@ export const Aboutme: React.FC = () => {
 					<section className='content'>
 						<p>
 							Hi! I’m is Asim, a Front-End Software Engineer based in Sarai
-							Alamgir.
-						</p>
-						<p>
-							Recently,I am graduated from University of Gujrat based in Gujrat
-							,Punjab.I prefer building things for the web that’s why I love
-							working in javascript to build Web Application , more scale able
-							and more efficient.
+							Alamgir. Recently,I am graduated from University of Gujrat based
+							in Gujrat ,Punjab.I prefer building things for the web that’s why
+							I love working in javascript to build Web Application , more scale
+							able and more efficient.
 						</p>
 						<p>Technologies i am working on,</p>
 						<ul>
@@ -23,13 +20,13 @@ export const Aboutme: React.FC = () => {
 								<b>Javascript (ES6+)</b>
 							</li>
 							<li>
+								<b>React Native</b>
+							</li>
+							<li>
 								<b>Html (S)CSS</b>
 							</li>
 							<li>
 								<b>Typescript</b>
-							</li>
-							<li>
-								<b>React Native</b>
 							</li>
 							<li>
 								<b>React js</b>

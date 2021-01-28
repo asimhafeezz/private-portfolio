@@ -1,13 +1,15 @@
-import openFolderIconURL from '../icons/open-folder.png'
 import githubIconURL from '../icons/github.png'
 import linkIconURL from '../icons/link.png'
+import { FolderSvg } from '../icons/folder'
+import { GithubSvg } from '../icons/github'
+import { LinkSvg } from '../icons/link'
 
 export const Card: React.FC = () => {
 	return (
 		<div className='card'>
 			<section className='head'>
 				<h3>Car Rental System</h3>
-				<img src={openFolderIconURL} alt='open-folder' />
+				<FolderSvg />
 			</section>
 			<section className='content'>
 				<p>
@@ -18,8 +20,8 @@ export const Card: React.FC = () => {
 				<p>Flask , Reactjs, Node.js</p>
 			</section>
 			<section className='links'>
-				<img src={githubIconURL} alt='github-icon' />
-				<img src={linkIconURL} alt='link-icon' />
+				<GithubSvg />
+				<LinkSvg />
 			</section>
 		</div>
 	)
