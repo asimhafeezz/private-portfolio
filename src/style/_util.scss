@@ -2,13 +2,9 @@
 	@include container;
 }
 
-.logo {
-	border: 2px solid $blue;
-	display: inline-block;
-	border-radius: $b-radius;
-	padding: $md-pad;
-	h3 {
-		margin-top: -2.5px;
-		font-size: 20px;
+.logo-svg {
+	path {
+		stroke-dasharray: 15;
+		stroke-dashoffset: 61;
 	}
 }
