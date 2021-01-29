@@ -1,25 +1,30 @@
-export const Logo: React.FC = () => {
+import { useState } from 'react'
+
+interface LogoPropsI {
+	isLoading: boolean
+}
+
+export const Logo: React.FC<LogoPropsI> = ({ isLoading }) => {
 	return (
-		<svg
-			width='65'
-			height='65'
-			viewBox='0 0 97 96'
-			fill='none'
-			className='logo-svg'
-			xmlns='http://www.w3.org/2000/svg'>
-			<rect
-				x='2'
-				y='2'
-				width='82'
-				height='76'
-				rx='10'
-				stroke='#5187D8'
-				stroke-width='4'
-			/>
-			<path
-				d='M35.3008 47.6875H25.9062L24.2656 53H16.9414L27.3711 24.5625H33.8164L44.3242 53H36.9609L35.3008 47.6875ZM27.5469 42.3945H33.6602L30.5938 32.5312L27.5469 42.3945ZM70.1836 53H63.3672V41.125H53.2695V53H46.4141V24.5625H53.2695V35.8516H63.3672V24.5625H70.1836V53Z'
-				fill='#C4C4C4'
-			/>
-		</svg>
+		<div className={isLoading ? 'center' : ''}>
+			<div className={isLoading ? 'logo-wrapper' : 'logo-not-loading-wrapper'}>
+				<svg
+					width={!isLoading ? '40' : '65'}
+					height={!isLoading ? '50' : '75'}
+					viewBox='0 0 92 50'
+					fill='none'
+					className='logo-paths'
+					xmlns='http://www.w3.org/2000/svg'>
+					<path
+						d='M32.915 38.4131H13.6377L9.60449 50H0.615234L19.4141 0.234375H27.1729L46.0059 50H36.9824L32.915 38.4131ZM16.0645 31.4404H30.4883L23.2764 10.7959L16.0645 31.4404Z'
+						fill='black'
+					/>
+					<path
+						d='M91.1914 50H82.5781V27.8857H60.3271V50H51.6797V0.234375H60.3271V20.9473H82.5781V0.234375H91.1914V50Z'
+						fill='black'
+					/>
+				</svg>
+			</div>
+		</div>
 	)
 }

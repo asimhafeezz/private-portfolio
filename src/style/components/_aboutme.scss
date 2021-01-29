@@ -7,15 +7,15 @@
 	}
 	.aboutme-grid {
 		@include grid;
-		grid-template-columns: 2fr 1.5fr;
+		grid-template-columns: 2fr 1.2fr;
 		place-items: center;
-		margin-bottom: 100px;
+		margin-bottom: 200px;
 		// height: 80vh;
 		.content {
 			p {
 				padding: $lg-pad 0;
 				font-size: 18px;
-				font: 600;
+				text-align: left;
 			}
 			ul {
 				list-style-type: none;
@@ -32,7 +32,7 @@
 						white-space: nowrap;
 					}
 				}
-				@include smallerThan(500px) {
+				@include smallerThan(800px) {
 					grid-template-columns: repeat(3, 1fr);
 					// place-items: center;
 					li {
@@ -44,9 +44,11 @@
 			}
 		}
 		.image {
+			justify-self: flex-start;
 			img {
-				max-width: 350px;
-				border-radius: 30px;
+				max-width: 325px;
+				border-radius: $b-radius;
+				object-fit: cover;
 			}
 			position: relative;
 			&::after {
@@ -57,32 +59,27 @@
 				background-color: rgba(81, 135, 216, 0.1);
 				width: 100%;
 				height: 99%;
-				border-radius: 30px;
+				border-radius: $b-radius;
 			}
 			&:hover::after {
 				opacity: 0;
 			}
 		}
 
-		@include smallerThan(800px) {
+		@include smallerThan(820px) {
 			grid-template-columns: 1fr;
-			// .content {
-			// 	order: 2;
-			// }
-			// .image {
-			// 	order: 1;
-			// }
+			margin-bottom: 100px;
+			.content {
+				order: 2;
+			}
+			.image {
+				order: 1;
+			}
 		}
-
-		// @include smallerThan(500px) {
-		// 	p:nth-child(2) {
-		// 		text-align: center;
-		// 	}
-		// }
 	}
-	// @include smallerThan(800px) {
-	// 	h2 {
-	// 		text-align: center;
-	// 	}
-	// }
+	@include smallerThan(800px) {
+		h2 {
+			margin-top: 0px;
+		}
+	}
 }

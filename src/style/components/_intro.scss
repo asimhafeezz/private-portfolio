@@ -22,14 +22,21 @@
 		margin: $xl-marg 0;
 	}
 
-	@include smallerThan(780px) {
+	@include smallerThan(1050px) {
+		h1,
+		h2 {
+			font-size: 90px;
+		}
+	}
+
+	@include smallerThan(800px) {
 		h1,
 		h2 {
 			font-size: 80px;
 		}
 	}
 
-	@include smallerThan(680px) {
+	@include smallerThan(700px) {
 		h1,
 		h2 {
 			font-size: 54px;

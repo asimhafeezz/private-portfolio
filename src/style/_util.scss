@@ -2,9 +2,53 @@
 	@include container;
 }
 
-.logo-svg {
+.center {
+	@include flex-center;
+	height: 100vh;
+}
+
+.logo-wrapper {
+	border: 3px solid $dark;
+	display: inline-block;
+	border-radius: $b-radius;
+	animation: wrap 0.5s linear forwards 2.5s;
+	.logo-paths {
+		margin: -5px 7px;
+	}
 	path {
-		stroke-dasharray: 15;
-		stroke-dashoffset: 61;
+		fill: none;
+		stroke: $half-white;
+		stroke-width: 2;
+		stroke-dasharray: 530;
+		stroke-linecap: round;
+		animation: paths 4.5s linear forwards;
+	}
+}
+
+.logo-not-loading-wrapper {
+	border: 3px solid $blue;
+	display: inline-block;
+	border-radius: 6px;
+	.logo-paths {
+		margin: -5px 7px;
+	}
+	path {
+		fill: $half-white;
+	}
+}
+
+@keyframes paths {
+	from {
+		stroke-dashoffset: 530;
+	}
+	to {
+		stroke-dashoffset: 0;
+		fill: $half-white;
+	}
+}
+
+@keyframes wrap {
+	to {
+		border-color: $blue;
 	}
 }
