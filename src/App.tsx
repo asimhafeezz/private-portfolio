@@ -1,7 +1,14 @@
 import './style/main.scss'
-import { Appbar, Intro, Aboutme, Projects } from './components'
+import {
+	Appbar,
+	Intro,
+	Aboutme,
+	Projects,
+	WhileNotCoding,
+	Footer,
+} from './components'
 import { useEffect, useState } from 'react'
-import { Logo } from './components/util/Logo'
+import { Logo } from './icons/Logo'
 
 const App = () => {
 	const [isLoading, setIsLoading] = useState<boolean>(true)
@@ -9,7 +16,7 @@ const App = () => {
 	useEffect(() => {
 		setTimeout(() => {
 			setIsLoading(false)
-		}, 3000)
+		}, 3150)
 	}, [])
 
 	return isLoading ? (
@@ -20,6 +27,8 @@ const App = () => {
 			<Intro />
 			<Aboutme />
 			<Projects />
+			<WhileNotCoding />
+			<Footer />
 		</div>
 	)
 }

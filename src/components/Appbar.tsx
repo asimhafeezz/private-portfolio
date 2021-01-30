@@ -1,4 +1,4 @@
-import { Logo } from './util/Logo'
+import { Logo } from '../icons/Logo'
 
 export const Appbar: React.FC = () => {
 	return (

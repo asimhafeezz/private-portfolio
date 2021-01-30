@@ -1,8 +1,4 @@
-import githubIconURL from '../icons/github.png'
-import linkIconURL from '../icons/link.png'
-import { FolderSvg } from '../icons/folder'
-import { GithubSvg } from '../icons/github'
-import { LinkSvg } from '../icons/link'
+import { FolderSvg, GithubSvg, LinkSvg } from '../icons'
 
 export const Card: React.FC = () => {
 	return (
