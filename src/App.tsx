@@ -1,13 +1,5 @@
 import './style/main.scss'
-import {
-	Appbar,
-	Intro,
-	Aboutme,
-	Projects,
-	WhileNotCoding,
-	Footer,
-	Findme,
-} from './components'
+import { Appbar, Intro, Aboutme, Projects, Footer, Findme } from './components'
 import { useEffect, useState } from 'react'
 import { Logo } from './icons/Logo'
 

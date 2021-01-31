@@ -8,13 +8,29 @@ export const Aboutme: React.FC = () => {
 				<section className='aboutme-grid'>
 					<section className='content'>
 						<p>
-							Hi! I’m is Asim, a Front-End Software Engineer based in Sarai
-							Alamgir. Recently,I am graduated from University of Gujrat based
-							in Gujrat ,Punjab.I prefer building things for the web that’s why
-							I love working in javascript to build Web Application , more scale
-							able and more efficient.
+							Hi! I’m is Asim Hafeez, a Software Engineer from Pakistan.
+							Recently, I am graduated from{' '}
+							<span>
+								<a href='https://uog.edu.pk'>University of Gujrat</a>
+							</span>
+							. I'm always looking for opportunities to work with those who are
+							willing to share their knowledge as much as I want to learn. I
+							prefer building things for the web that’s why I love working in
+							javascript to build Web Application, more scale able,
+							pixel-perfect and more efficient.
 						</p>
-						<p>Technologies i am working on,</p>
+						<p>
+							<span>
+								<b>While not coding,</b>
+							</span>{' '}
+							I'm probably eating, traveling, or sleeping...
+						</p>
+						<p>
+							<span>
+								<b>Technologies</b>
+							</span>{' '}
+							i am working on,
+						</p>
 						<ul>
 							<li>
 								<>Javascript (ES6+)</>

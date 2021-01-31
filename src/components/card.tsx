@@ -1,23 +1,40 @@
 import { FolderSvg, GithubSvg, LinkSvg } from '../icons'
 
-export const Card: React.FC = () => {
+export interface ProjectI {
+	name: string
+	desc: string
+	languages: string
+	githubLink: string
+	liveLink: string
+}
+
+export const Card: React.FC<ProjectI> = props => {
+	const { name, desc, languages, githubLink, liveLink } = props
 	return (
 		<div className='card'>
 			<section className='head'>
-				<h3>Car Rental System</h3>
+				<h3>{name}</h3>
 				<FolderSvg />
 			</section>
 			<section className='content'>
+				<p>{desc}</p>
 				<p>
-					A single page App built with Reactjs , nodejs , flask, chart js,
-					Material-UI and with other third party Api’s by using Microservices
-					Architecture.
+					<pre>
+						<code>{languages}</code>
+					</pre>
 				</p>
-				<p>Flask , Reactjs, Node.js</p>
 			</section>
 			<section className='links'>
-				<GithubSvg />
-				<LinkSvg />
+				{githubLink && (
+					<a href={githubLink} target='blank'>
+						<GithubSvg />
+					</a>
+				)}
+				{liveLink && (
+					<a href={liveLink} target='blank'>
+						<LinkSvg />
+					</a>
+				)}
 			</section>
 		</div>
 	)

@@ -26,15 +26,17 @@
 			.content {
 				@include flex-between;
 				align-items: flex-start;
-				justify-content: space-around;
+				justify-content: space-between;
 				flex-direction: column;
 				margin-bottom: 35px;
-				p:nth-child(1) {
-					margin-bottom: $lg-marg;
-				}
+				height: 100%;
 				p:nth-child(2) {
-					margin-bottom: $lg-marg;
 					font-size: $sm-font;
+					pre {
+						code {
+							white-space: normal;
+						}
+					}
 				}
 			}
 			.links {
@@ -51,6 +53,15 @@
 			}
 		}
 	}
+
+	.button-section {
+		@include flex-center;
+		margin-top: 35px;
+		button {
+			@include button;
+		}
+	}
+
 	//media query
 	@include smallerThan(500px) {
 		padding: 0.5rem;
