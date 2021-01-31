@@ -3,6 +3,7 @@
 	align-items: flex-start;
 	flex-direction: column;
 	height: 85vh;
+	animation: opacity-fade-anim 2s forwards;
 	h1 {
 		font-size: $xl-font;
 		color: $blue;
@@ -60,6 +61,15 @@
 		h1,
 		h2 {
 			font-size: 35px;
+		}
+	}
+
+	@keyframes opacity-fade-anim {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
 		}
 	}
 }
