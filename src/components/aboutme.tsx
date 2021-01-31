@@ -8,16 +8,16 @@ export const Aboutme: React.FC = () => {
 				<section className='aboutme-grid'>
 					<section className='content'>
 						<p>
-							Hi! I’m is Asim Hafeez, a Software Engineer from Pakistan.
-							Recently, I am graduated from{' '}
+							Hi! I’m is Asim Hafeez, a Software Engineer from Pakistan. I am
+							graduated from{' '}
 							<span>
 								<a href='https://uog.edu.pk'>University of Gujrat</a>
-							</span>
-							. I'm always looking for opportunities to work with those who are
-							willing to share their knowledge as much as I want to learn. I
-							prefer building things for the web that’s why I love working in
-							javascript to build Web Application, more scale able,
-							pixel-perfect and more efficient.
+							</span>{' '}
+							in BS Computer Science. I'm always looking for opportunities to
+							work with those who are willing to share their knowledge as much
+							as I want to learn. I prefer building things for the web that’s
+							why I love working in javascript to build Web Application, more
+							scale able, pixel-perfect and more efficient.
 						</p>
 						<p>
 							<span>

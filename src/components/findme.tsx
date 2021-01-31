@@ -7,7 +7,7 @@ export const Findme: React.FC = () => {
 				<h2>Get In Touch</h2>
 				<section className='contactme'>
 					<p>
-						my inbox is always open. Whether you have a question or just want to
+						My inbox is always open. Whether you have a question or just want to
 						say hi, I'll try my best to get back to you!
 					</p>
 					<a href='mailto:asimhaff@gmail.com'>
