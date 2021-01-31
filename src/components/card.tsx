@@ -10,6 +10,7 @@ export interface ProjectI {
 
 export const Card: React.FC<ProjectI> = props => {
 	const { name, desc, languages, githubLink, liveLink } = props
+
 	return (
 		<div className='card'>
 			<section className='head'>

@@ -1,5 +1,3 @@
-// import rightArrowIcon from '../icons/right-arrow.png'
-
 export const Aboutme: React.FC = () => {
 	return (
 		<div className='container'>
@@ -32,24 +30,12 @@ export const Aboutme: React.FC = () => {
 							i am working on,
 						</p>
 						<ul>
-							<li>
-								<>Javascript (ES6+)</>
-							</li>
-							<li>
-								<>React Native</>
-							</li>
-							<li>
-								<>Html (S)CSS</>
-							</li>
-							<li>
-								<>Typescript</>
-							</li>
-							<li>
-								<>React js</>
-							</li>
-							<li>
-								<>Node js</>
-							</li>
+							<li>Javascript (ES6+)</li>
+							<li>React Native</li>
+							<li>Html (S)CSS</li>
+							<li>Typescript</li>
+							<li>React js</li>
+							<li>Node js</li>
 						</ul>
 					</section>
 					<section className='image'>
