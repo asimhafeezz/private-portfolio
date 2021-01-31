@@ -8,12 +8,12 @@
 }
 
 .logo-wrapper {
-	border: 2px solid $dark;
+	border: 2.5px solid $dark;
 	display: inline-block;
-	border-radius: 10px;
+	border-radius: $sm-b-radius;
 	animation: wrap 0.5s linear forwards 2.5s;
 	.logo-paths {
-		margin: -5px 6px;
+		margin: -3.5px 6px;
 		margin-bottom: -7px;
 	}
 	path {
@@ -29,9 +29,9 @@
 .logo-not-loading-wrapper {
 	border: 2px solid $blue;
 	display: inline-block;
-	border-radius: 6px;
+	border-radius: $sm-b-radius;
 	.logo-paths {
-		margin: -5px 6px;
+		margin: -3.5px 6px;
 		margin-bottom: -7px;
 	}
 	path {
