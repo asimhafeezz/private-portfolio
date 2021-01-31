@@ -1,7 +1,7 @@
 .projects {
 	h2 {
-		font-size: 35px;
-		margin-bottom: 20px;
+		font-size: $sub-heading-font;
+		margin: 30px 0;
 		color: $blue;
 		text-align: center;
 	}
@@ -24,8 +24,12 @@
 				justify-content: space-around;
 				flex-direction: column;
 				margin-bottom: 35px;
-				p:nth-child(odd) {
+				p:nth-child(1) {
 					margin-bottom: $lg-marg;
+				}
+				p:nth-child(2) {
+					margin-bottom: $lg-marg;
+					font-size: $sm-font;
 				}
 			}
 			.links {
@@ -44,6 +48,6 @@
 	}
 	//media query
 	@include smallerThan(500px) {
-		padding: 1rem;
+		padding: 0.5rem;
 	}
 }

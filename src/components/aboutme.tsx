@@ -17,22 +17,22 @@ export const Aboutme: React.FC = () => {
 						<p>Technologies i am working on,</p>
 						<ul>
 							<li>
-								<b>Javascript (ES6+)</b>
+								<>Javascript (ES6+)</>
 							</li>
 							<li>
-								<b>React Native</b>
+								<>React Native</>
 							</li>
 							<li>
-								<b>Html (S)CSS</b>
+								<>Html (S)CSS</>
 							</li>
 							<li>
-								<b>Typescript</b>
+								<>Typescript</>
 							</li>
 							<li>
-								<b>React js</b>
+								<>React js</>
 							</li>
 							<li>
-								<b>Node js</b>
+								<>Node js</>
 							</li>
 						</ul>
 					</section>

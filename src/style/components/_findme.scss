@@ -1,8 +1,8 @@
 .findme {
 	h2 {
-		font-size: 35px;
+		font-size: $sub-heading-font;
 		color: $blue;
-		margin-top: 170px;
+		margin-top: 180px;
 		text-align: center;
 	}
 
@@ -27,10 +27,55 @@
 		margin: 0 auto;
 
 		.instagram-svg {
-			stroke: round($number: 50%);
+			transition: 0.2s;
+			&:hover {
+				cursor: pointer;
+				transform: translateY(-5px);
+				path {
+					fill: $blue;
+				}
+			}
+		}
+		.twitter-svg {
+			transition: 0.2s;
+			&:hover {
+				cursor: pointer;
+				transform: translateY(-5px);
+				path {
+					fill: $blue;
+				}
+			}
+		}
+		.codesandbox-svg {
+			transition: 0.2s;
+			&:hover {
+				cursor: pointer;
+				transform: translateY(-5px);
+				path {
+					fill: $blue;
+				}
+			}
 		}
 		.linkedin-svg {
-			stroke: round($number: 50%);
+			transition: 0.2s;
+			&:hover {
+				cursor: pointer;
+				transform: translateY(-5px);
+				path {
+					fill: $blue;
+				}
+			}
+		}
+
+		.github-svg {
+			transition: 0.2s;
+			&:hover {
+				cursor: pointer;
+				transform: translateY(-5px);
+				path {
+					fill: $blue;
+				}
+			}
 		}
 	}
 
