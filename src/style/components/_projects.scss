@@ -17,6 +17,11 @@
 				h3 {
 					font-weight: 400;
 				}
+				.folder-svg {
+					path {
+						fill: $blue;
+					}
+				}
 			}
 			.content {
 				@include flex-between;
