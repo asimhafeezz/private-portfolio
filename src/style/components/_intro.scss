@@ -53,4 +53,11 @@
 			font-size: 40px;
 		}
 	}
+	//media query
+	@include smallerThan(350px) {
+		h1,
+		h2 {
+			font-size: 35px;
+		}
+	}
 }

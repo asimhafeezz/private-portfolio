@@ -1,0 +1,41 @@
+.findme {
+	h2 {
+		font-size: 35px;
+		color: $blue;
+		margin-top: 170px;
+		text-align: center;
+	}
+
+	.contactme {
+		@include grid;
+		place-items: center;
+		margin-top: 30px;
+		margin-bottom: 170px;
+		p {
+			max-width: 450px;
+			text-align: center;
+		}
+		button {
+			@include button;
+		}
+	}
+
+	.socials {
+		@include flex-center;
+		justify-content: space-around;
+		max-width: 300px;
+		margin: 0 auto;
+
+		.instagram-svg {
+			stroke: round($number: 50%);
+		}
+		.linkedin-svg {
+			stroke: round($number: 50%);
+		}
+	}
+
+	//media query
+	@include smallerThan(500px) {
+		padding: 1rem;
+	}
+}

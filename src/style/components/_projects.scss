@@ -1,8 +1,9 @@
 .projects {
 	h2 {
-		font-size: 40px;
+		font-size: 35px;
 		margin-bottom: 20px;
 		color: $blue;
+		text-align: center;
 	}
 	.cards {
 		@include grid;
@@ -41,7 +42,8 @@
 			}
 		}
 	}
-	@include smallerThan(800px) {
-		// margin-top: 250px;
+	//media query
+	@include smallerThan(500px) {
+		padding: 1rem;
 	}
 }

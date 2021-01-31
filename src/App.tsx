@@ -6,6 +6,7 @@ import {
 	Projects,
 	WhileNotCoding,
 	Footer,
+	Findme,
 } from './components'
 import { useEffect, useState } from 'react'
 import { Logo } from './icons/Logo'
@@ -27,7 +28,8 @@ const App = () => {
 			<Intro />
 			<Aboutme />
 			<Projects />
-			<WhileNotCoding />
+			{/* <WhileNotCoding /> */}
+			<Findme />
 			<Footer />
 		</div>
 	)

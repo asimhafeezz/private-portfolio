@@ -8,16 +8,17 @@
 }
 
 .logo-wrapper {
-	border: 3px solid $dark;
+	border: 2px solid $dark;
 	display: inline-block;
-	border-radius: $b-radius;
+	border-radius: 10px;
 	animation: wrap 0.5s linear forwards 2.5s;
 	.logo-paths {
-		margin: -5px 7px;
+		margin: -5px 6px;
+		margin-bottom: -7px;
 	}
 	path {
 		fill: none;
-		stroke: $half-white;
+		stroke: $blue;
 		stroke-width: 2;
 		stroke-dasharray: 530;
 		stroke-linecap: round;
@@ -26,14 +27,15 @@
 }
 
 .logo-not-loading-wrapper {
-	border: 3px solid $blue;
+	border: 2px solid $blue;
 	display: inline-block;
 	border-radius: 6px;
 	.logo-paths {
-		margin: -5px 7px;
+		margin: -5px 5px;
+		margin-bottom: -7px;
 	}
 	path {
-		fill: $half-white;
+		fill: $blue;
 	}
 }
 
@@ -43,7 +45,7 @@
 	}
 	to {
 		stroke-dashoffset: 0;
-		fill: $half-white;
+		fill: $blue;
 	}
 }
 

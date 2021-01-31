@@ -1,13 +1,13 @@
 .appbar {
 	@include flex-between;
 	@include container;
-	padding: $lg-pad $xl-pad;
+	// padding: $lg-pad $xl-pad;
 
 	h2 {
 		border-bottom: 2px solid $dark;
 		cursor: pointer;
 		transition: 0.2s;
-		font-size: 20px;
+		font-size: 18px;
 		color: $blue;
 		font-weight: 500;
 		padding: $sm-pad 0;

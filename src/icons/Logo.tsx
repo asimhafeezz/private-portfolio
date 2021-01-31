@@ -9,8 +9,8 @@ export const Logo: React.FC<LogoPropsI> = ({ isLoading }) => {
 		<div className={isLoading ? 'center' : ''}>
 			<div className={isLoading ? 'logo-wrapper' : 'logo-not-loading-wrapper'}>
 				<svg
-					width={!isLoading ? '40' : '65'}
-					height={!isLoading ? '50' : '75'}
+					width={!isLoading ? '35' : '55'}
+					height={!isLoading ? '45' : '65'}
 					viewBox='0 0 92 50'
 					fill='none'
 					className='logo-paths'
