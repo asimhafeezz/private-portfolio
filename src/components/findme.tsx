@@ -17,7 +17,7 @@ export const Findme: React.FC = () => {
 	return (
 		<div className='container'>
 			<div className='findme'>
-				<h2>Get In Touch</h2>
+				<h2>Reach Out</h2>
 				<section className='contactme'>
 					<p>
 						My inbox is always open. Whether you have a question or just want to

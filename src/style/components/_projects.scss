@@ -1,6 +1,6 @@
 .projects {
 	max-width: 1100px;
-	margin: 0 auto;
+	margin: 70px auto;
 	h2 {
 		font-size: $sub-heading-font;
 		margin: 30px 0;
@@ -17,7 +17,6 @@
 				@include flex-between;
 				margin-bottom: 35px;
 				h3 {
-					font-weight: 550;
 					letter-spacing: 1px;
 				}
 				.folder-svg {

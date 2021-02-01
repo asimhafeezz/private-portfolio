@@ -8,8 +8,10 @@
 	h1 {
 		font-size: $xl-font;
 		color: $blue;
+		letter-spacing: 1px;
 	}
 	h2 {
+		letter-spacing: 1px;
 		font-size: $xl-font;
 		color: $blue;
 		opacity: 0.6;
@@ -41,27 +43,30 @@
 		}
 	}
 
-	@include smallerThan(700px) {
+	@include smallerThan(720px) {
 		h1,
 		h2 {
-			font-size: 54px;
+			font-size: 50px;
 		}
 		p {
 			padding: 10px 0;
 		}
 	}
 
-	@include smallerThan(450px) {
+	@include smallerThan(500px) {
 		h1,
 		h2 {
-			font-size: 40px;
+			font-size: 35px;
+		}
+		p {
+			font-size: $sm-font;
 		}
 	}
 	//media query
 	@include smallerThan(350px) {
 		h1,
 		h2 {
-			font-size: 35px;
+			font-size: 30px;
 		}
 	}
 
