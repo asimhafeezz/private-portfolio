@@ -35,12 +35,10 @@
 				p {
 					font-weight: 200;
 				}
-				p:nth-child(2) {
+				pre {
 					font-size: $sm-font;
-					pre {
-						code {
-							white-space: normal;
-						}
+					code {
+						white-space: normal;
 					}
 				}
 			}

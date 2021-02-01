@@ -1,18 +1,9 @@
-import { gsap } from 'gsap'
-import { useEffect } from 'react'
+import { useAnimation } from '../util/useAnimation'
 
 export const Aboutme: React.FC = () => {
-	useEffect(() => {
-		gsap.from('.aboutme', {
-			opacity: 0,
-			duration: 3,
-			scrollTrigger: {
-				trigger: '.aboutme',
-				start: 'top 80%',
-				once: true,
-			},
-		})
-	}, [])
+	//use animate hook
+	useAnimation('.aboutme')
+
 	return (
 		<div className='container'>
 			<section className='aboutme'>
@@ -33,9 +24,9 @@ export const Aboutme: React.FC = () => {
 						</p>
 						<p>
 							<span>
-								<b>While not coding,</b>
+								<b>While I'm not coding,</b>
 							</span>{' '}
-							I'm probably eating, traveling, or sleeping...
+							I often eat, travel, or sleep...
 						</p>
 						<p>
 							<span>

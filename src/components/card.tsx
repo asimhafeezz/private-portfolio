@@ -19,11 +19,9 @@ export const Card: React.FC<ProjectI> = props => {
 			</section>
 			<section className='content'>
 				<p>{desc}</p>
-				<p>
-					<pre>
-						<code>{languages}</code>
-					</pre>
-				</p>
+				<pre>
+					<code>{languages}</code>
+				</pre>
 			</section>
 			<section className='links'>
 				{githubLink && (

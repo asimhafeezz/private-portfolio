@@ -1,19 +1,9 @@
 import { CodesandBox, GithubSvg, Instagram, Linkedin, Twitter } from '../icons'
-import { gsap } from 'gsap'
-import { useEffect } from 'react'
+import { useAnimation } from '../util/useAnimation'
 
 export const Findme: React.FC = () => {
-	useEffect(() => {
-		gsap.from('.findme', {
-			opacity: 0,
-			duration: 3,
-			scrollTrigger: {
-				trigger: '.findme',
-				start: 'top 80%',
-				once: true,
-			},
-		})
-	}, [])
+	//use animation hook
+	useAnimation('.findme')
 	return (
 		<div className='container'>
 			<div className='findme'>

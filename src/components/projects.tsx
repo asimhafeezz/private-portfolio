@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { projects } from '../data/projects'
 import { Card } from './card'
 
-import { gsap } from 'gsap'
+import { useAnimation } from '../util/useAnimation'
 
 export const Projects: React.FC = () => {
 	const [showMore, setShowMore] = useState(false)
@@ -11,17 +11,8 @@ export const Projects: React.FC = () => {
 		setShowMore(!showMore)
 	}
 
-	useEffect(() => {
-		gsap.from('.projects', {
-			opacity: 0,
-			duration: 3,
-			scrollTrigger: {
-				trigger: '.projects',
-				start: 'top 80%',
-				once: true,
-			},
-		})
-	}, [])
+	//use animate hook
+	useAnimation('.projects')
 
 	return (
 		<div className='container'>
