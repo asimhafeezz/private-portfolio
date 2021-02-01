@@ -1,4 +1,18 @@
+import { gsap } from 'gsap'
+import { useEffect } from 'react'
+
 export const Aboutme: React.FC = () => {
+	useEffect(() => {
+		gsap.from('.aboutme', {
+			opacity: 0,
+			duration: 3,
+			scrollTrigger: {
+				trigger: '.aboutme',
+				start: 'top 80%',
+				once: true,
+			},
+		})
+	}, [])
 	return (
 		<div className='container'>
 			<section className='aboutme'>

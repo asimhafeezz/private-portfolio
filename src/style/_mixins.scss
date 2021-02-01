@@ -66,11 +66,6 @@
 	&:hover {
 		background-color: $light-blue;
 	}
-
-	@include smallerThan(500px) {
-		font-size: 19px;
-		padding: $sm-font;
-	}
 }
 
 //media queries

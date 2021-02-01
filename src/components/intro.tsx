@@ -1,3 +1,6 @@
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+gsap.registerPlugin(ScrollTrigger)
 export const Intro: React.FC = () => {
 	return (
 		<div className='container'>
