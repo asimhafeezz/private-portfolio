@@ -69,5 +69,8 @@
 	//media query
 	@include smallerThan(500px) {
 		padding: 0.7rem;
+		h2 {
+			font-size: 35px;
+		}
 	}
 }

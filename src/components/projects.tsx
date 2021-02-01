@@ -17,7 +17,7 @@ export const Projects: React.FC = () => {
 	return (
 		<div className='container'>
 			<section className='projects'>
-				<h2>Web Stuff</h2>
+				<h2>My Work</h2>
 				<section className='cards'>
 					{projects.slice(0, showMore ? projects.length : 6).map((item, i) => (
 						<Card key={i} {...item} />
