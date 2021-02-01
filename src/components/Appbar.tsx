@@ -2,7 +2,7 @@ import { Logo } from '../icons/Logo'
 export const Appbar: React.FC = () => {
 	return (
 		<section className='appbar'>
-			<a href='https://asimhafeez.com'>
+			<a href='http://asimhafeez.com'>
 				<Logo isLoading={false} />
 			</a>
 			<a href='/AsimHafeez.pdf' rel='noopener noreferrer' target='_blank'>
