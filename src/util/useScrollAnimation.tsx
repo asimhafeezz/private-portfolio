@@ -1,7 +1,7 @@
 import gsap from 'gsap'
 import { useEffect } from 'react'
 
-export const useAnimation = (className: string): void => {
+export const useScrollAnimation = (className: string): void => {
 	useEffect(() => {
 		const unsub = () => {
 			gsap.from(className, {

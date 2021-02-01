@@ -3,15 +3,17 @@
 	@include container;
 
 	h2 {
-		border-bottom: 2px solid $dark;
 		cursor: pointer;
 		transition: 0.2s;
-		font-size: 17.5px;
 		color: $blue;
 		font-weight: 500;
 		padding: $sm-pad 0;
+		@include button;
+		color: $blue;
+		border: 0;
+		font-size: 17.5px;
 		&:hover {
-			border-bottom: 2px solid $blue;
+			color: $half-white;
 		}
 	}
 	a {

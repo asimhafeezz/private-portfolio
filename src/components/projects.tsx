@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { projects } from '../data/projects'
 import { Card } from './card'
 
-import { useAnimation } from '../util/useAnimation'
+import { useScrollAnimation } from '../util/useScrollAnimation'
 
 export const Projects: React.FC = () => {
 	const [showMore, setShowMore] = useState(false)
@@ -12,7 +12,7 @@ export const Projects: React.FC = () => {
 	}
 
 	//use animate hook
-	useAnimation('.projects')
+	useScrollAnimation('.projects')
 
 	return (
 		<div className='container'>

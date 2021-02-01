@@ -1,5 +1,13 @@
 import './style/main.scss'
-import { Appbar, Intro, Aboutme, Projects, Footer, Findme } from './components'
+import {
+	Appbar,
+	Intro,
+	Aboutme,
+	Projects,
+	Footer,
+	Findme,
+	Experience,
+} from './components'
 import { useEffect, useState } from 'react'
 import { Logo } from './icons/Logo'
 
@@ -26,6 +34,7 @@ const App = () => {
 			<Appbar />
 			<Intro />
 			<Aboutme />
+			<Experience />
 			<Projects />
 			<Findme />
 			<Footer />

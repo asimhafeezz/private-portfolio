@@ -1,8 +1,8 @@
-import { useAnimation } from '../util/useAnimation'
+import { useScrollAnimation } from '../util/useScrollAnimation'
 
 export const Aboutme: React.FC = () => {
 	//use animate hook
-	useAnimation('.aboutme')
+	useScrollAnimation('.aboutme')
 
 	return (
 		<div className='container'>

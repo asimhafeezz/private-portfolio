@@ -1,9 +1,9 @@
 import { CodesandBox, GithubSvg, Instagram, Linkedin, Twitter } from '../icons'
-import { useAnimation } from '../util/useAnimation'
+import { useScrollAnimation } from '../util/useScrollAnimation'
 
 export const Findme: React.FC = () => {
 	//use animation hook
-	useAnimation('.findme')
+	useScrollAnimation('.findme')
 	return (
 		<div className='container'>
 			<div className='findme'>

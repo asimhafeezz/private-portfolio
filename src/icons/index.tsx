@@ -6,6 +6,7 @@ import { CodesandBox } from './codesandbox'
 import { Linkedin } from './linkedin'
 import { Twitter } from './twitter'
 import { Instagram } from './instagram'
+import { SquareBulletSvg } from './squareBullet'
 
 export {
 	LinkSvg,
@@ -16,4 +17,5 @@ export {
 	Linkedin,
 	Twitter,
 	Instagram,
+	SquareBulletSvg,
 }

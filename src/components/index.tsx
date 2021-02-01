@@ -4,5 +4,6 @@ import { Aboutme } from './aboutme'
 import { Projects } from './projects'
 import { Footer } from './footer'
 import { Findme } from './findme'
+import { Experience } from './experience'
 
-export { Intro, Appbar, Aboutme, Projects, Footer, Findme }
+export { Intro, Appbar, Aboutme, Projects, Footer, Findme, Experience }

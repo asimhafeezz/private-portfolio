@@ -1,0 +1,10 @@
+.experience {
+	@include container;
+	margin: $xl-marg auto;
+	h2 {
+		font-size: $sub-heading-font;
+		margin-bottom: 10px;
+		color: $blue;
+		text-align: center;
+	}
+}
