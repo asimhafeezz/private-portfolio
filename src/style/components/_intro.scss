@@ -2,7 +2,8 @@
 	@include flex-center;
 	align-items: flex-start;
 	flex-direction: column;
-	height: 85vh;
+	height: 100vh;
+	transform: translateY(-30px);
 	animation: opacity-fade-anim 2.3s forwards;
 	h1 {
 		font-size: $xl-font;
