@@ -11,7 +11,7 @@ export const Aboutme: React.FC = () => {
 				<section className='aboutme-grid'>
 					<section className='content'>
 						<p>
-							Hi! I’m is Asim Hafeez, a Software Engineer from Pakistan. I am
+							Hi! I’m Asim Hafeez, a Software Engineer from Pakistan. I am
 							graduated from{' '}
 							<span>
 								<a href='https://uog.edu.pk'>University of Gujrat</a>

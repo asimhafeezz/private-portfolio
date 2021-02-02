@@ -3,8 +3,9 @@
 	align-items: flex-start;
 	flex-direction: column;
 	height: 100vh;
+	// margin-top: 800px 0;
 	transform: translateY(-30px);
-	animation: opacity-fade-anim 2.3s forwards;
+	animation: opacity-fade-anim 2.4s forwards;
 	h1 {
 		font-size: $xl-font;
 		color: $blue;
@@ -26,7 +27,7 @@
 	}
 	button {
 		@include button;
-		margin: $xl-marg 0;
+		margin: $lg-marg 0;
 	}
 
 	@include smallerThan(1050px) {
@@ -56,7 +57,7 @@
 	@include smallerThan(500px) {
 		h1,
 		h2 {
-			font-size: 33px;
+			font-size: 38px;
 		}
 		p {
 			font-size: $sm-font;

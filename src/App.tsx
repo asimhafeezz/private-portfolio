@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import './style/main.scss'
 import {
 	Appbar,
@@ -8,13 +9,8 @@ import {
 	Findme,
 	Experience,
 } from './components'
-import { useEffect, useState } from 'react'
-import { Logo } from './icons/Logo'
-
-//animation trigger gsap
-import { gsap } from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
-gsap.registerPlugin(ScrollTrigger)
+import { Logo } from './icons'
+import { Layout } from './common/layout'
 
 const App = () => {
 	//local state
@@ -30,7 +26,7 @@ const App = () => {
 	return isLoading ? (
 		<Logo isLoading={true} />
 	) : (
-		<div className='App'>
+		<Layout>
 			<Appbar />
 			<Intro />
 			<Aboutme />
@@ -38,7 +34,7 @@ const App = () => {
 			<Projects />
 			<Findme />
 			<Footer />
-		</div>
+		</Layout>
 	)
 }
 
