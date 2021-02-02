@@ -12,7 +12,7 @@ export const projects: ProjectI[] = [
 	{
 		name: 'Portfolio',
 		desc:
-			'It the first version my personal website build in rectjs & designed using SCSS from scratch, without using any framework like Bootstrap or Material UI.  ',
+			'It the first version my personal website build in React.js & designed using SCSS from scratch, without using any UI framework like Bootstrap or Material UI.  ',
 		languages: 'Reactjs, Typescript, SCSS',
 		githubLink: '',
 		liveLink: 'https://asimhafeez.com',
