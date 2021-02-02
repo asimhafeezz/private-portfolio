@@ -1,7 +1,6 @@
 .appbar {
 	@include flex-between;
 	@include container;
-	height: 100px;
 
 	h2 {
 		cursor: pointer;
