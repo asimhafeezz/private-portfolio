@@ -16,3 +16,18 @@ body {
 	color: $half-white;
 	font-family: 'Roboto', sans-serif;
 }
+
+::-webkit-scrollbar {
+	width: inherit;
+}
+/* Track */
+::-webkit-scrollbar-track {
+	background-color: $light-dark;
+	border-radius: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: $light-blue;
+	border-radius: 4px;
+}
