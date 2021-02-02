@@ -32,7 +32,7 @@ export const Aboutme: React.FC = () => {
 							<span>
 								<b>Technologies</b>
 							</span>{' '}
-							i am working on,
+							I'm working on,
 						</p>
 						<ul>
 							<li>Javascript (ES6+)</li>

@@ -35,10 +35,14 @@
 				height: 100%;
 				p {
 					font-weight: 200;
-					margin-bottom: $xxl-marg;
+					text-align: justify;
+					@include smallerThan(600px) {
+						margin-bottom: $xxl-marg;
+					}
 				}
 				pre {
 					font-size: $sm-font;
+					text-align: justify;
 					code {
 						white-space: normal;
 					}
