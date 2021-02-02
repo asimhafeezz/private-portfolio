@@ -10,6 +10,14 @@ export const projects: ProjectI[] = [
 		liveLink: '',
 	},
 	{
+		name: 'Portfolio',
+		desc:
+			'First verision my personal website build in rectjs & designed using SCSS from scratch, without using any framework like Bootstrap or Material UI.  ',
+		languages: 'Reactjs, Typescript, SCSS',
+		githubLink: '',
+		liveLink: 'https://asimhafeez.com',
+	},
+	{
 		name: 'Say Something',
 		desc: 'An app built for fun, to say something you like.',
 		languages: 'Reactjs, Firebase, Typescript, SCSS',

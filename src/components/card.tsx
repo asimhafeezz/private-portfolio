@@ -24,10 +24,12 @@ export const Card: React.FC<ProjectI> = props => {
 				</pre>
 			</section>
 			<section className='links'>
-				{githubLink && (
+				{githubLink ? (
 					<a href={githubLink} target='blank'>
 						<GithubSvg />
 					</a>
+				) : (
+					<div />
 				)}
 				{liveLink && (
 					<a href={liveLink} target='blank'>
