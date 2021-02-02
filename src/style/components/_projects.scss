@@ -36,9 +36,7 @@
 				p {
 					font-weight: 200;
 					text-align: justify;
-					@include smallerThan(600px) {
-						margin-bottom: $xxl-marg;
-					}
+					margin-bottom: $xxl-marg;
 				}
 				pre {
 					font-size: $sm-font;
