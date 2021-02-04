@@ -1,5 +1,6 @@
+import { useEffect } from 'react'
 import { FolderSvg, GithubSvg, LinkSvg } from '../icons'
-
+import gsap from 'gsap'
 export interface ProjectI {
 	name: string
 	desc: string
@@ -10,6 +11,16 @@ export interface ProjectI {
 
 export const Card: React.FC<ProjectI> = props => {
 	const { name, desc, languages, githubLink, liveLink } = props
+
+	useEffect(() => {
+		const unsub = () => {
+			gsap.to('.card', {
+				opacity: 1,
+				duration: 1.5,
+			})
+		}
+		return unsub()
+	}, [])
 
 	return (
 		<div className='card'>
