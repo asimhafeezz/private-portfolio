@@ -28,7 +28,7 @@ export const projects: ProjectI[] = [
 		name: 'Leroku',
 		desc:
 			"It is built for practice as a weekend project, It's just a front template.",
-		languages: 'Reactjs, Style-components, React-router',
+		languages: 'Reactjs, Style-components, React-Router',
 		githubLink: 'https://github.com/asimhyff/leroku',
 		liveLink: 'https://leroku.vercel.app/',
 	},
@@ -36,7 +36,7 @@ export const projects: ProjectI[] = [
 		name: 'Swagger Editor Clone',
 		desc:
 			"It is built as project to play with the json of swagger editor's pet API and parse it to UI. It's Not a fully featured clone just a json to UI parser.",
-		languages: 'Reactjs, Style-components',
+		languages: 'Reactjs, Style-components, JSON',
 		githubLink: 'https://github.com/asimhyff/swagger-editor-clone',
 		liveLink: 'https://swagger-editor.vercel.app/',
 	},
@@ -44,7 +44,7 @@ export const projects: ProjectI[] = [
 		name: 'Breaking Bad App',
 		desc:
 			'It is small weekend project to play with the breaking bad characters API',
-		languages: 'Reactjs, CSS',
+		languages: 'Reactjs, CSS, Axios',
 		githubLink: 'https://github.com/asimhyff/breakingbad-app',
 		liveLink: 'https://asimhyff.github.io/breakingbad-app/',
 	},
@@ -52,7 +52,7 @@ export const projects: ProjectI[] = [
 		name: 'Events Finder',
 		desc:
 			'An app allow you to see events happening around the world by also filtering them with the start/end dates, countries & by name.',
-		languages: 'Reactjs, Material-UI, Typescript, SCSS',
+		languages: 'Reactjs, Material-UI, Typescript, SCSS, Axios',
 		githubLink: 'https://github.com/asimhyff/events-finder',
 		liveLink: 'https://events-finder.netlify.app/',
 	},
@@ -60,7 +60,7 @@ export const projects: ProjectI[] = [
 		name: 'Albums',
 		desc:
 			'An app created in react native, that allows users to filter albums according to artists and let them buy it by using links.',
-		languages: 'React-Native, CSS-in-Js',
+		languages: 'React-Native, CSS-in-Js, JSON',
 		githubLink: 'https://github.com/asimhyff/Albums',
 		liveLink: '',
 	},
