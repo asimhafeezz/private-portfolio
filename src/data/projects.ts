@@ -22,7 +22,7 @@ export const projects: ProjectI[] = [
 		desc:
 			'A Simple front UI of Hacker News built with Reactjs. using technologies like SCSS and Typescript',
 		languages: 'Reactjs, Typescript, SCSS',
-		githubLink: '',
+		githubLink: 'https://github.com/asimhyff/hackernews-clone',
 		liveLink: 'https://hackernews-one-nu.vercel.app/',
 	},
 	{
