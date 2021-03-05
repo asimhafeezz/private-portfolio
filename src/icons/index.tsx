@@ -1,12 +1,12 @@
 import { Logo } from './Logo'
-import { FolderSvg } from './folder'
-import { GithubSvg } from './github'
-import { LinkSvg } from './link'
-import { CodesandBox } from './codesandbox'
-import { Linkedin } from './linkedin'
-import { Twitter } from './twitter'
-import { Instagram } from './instagram'
-import { SquareBulletSvg } from './squareBullet'
+import { ReactComponent as FolderSvg } from './folder.svg'
+import { ReactComponent as GithubSvg } from './github.svg'
+import { ReactComponent as LinkSvg } from './link.svg'
+import { ReactComponent as CodesandBox } from './codesandbox.svg'
+import { ReactComponent as Linkedin } from './linkedin.svg'
+import { ReactComponent as Twitter } from './twitter.svg'
+import { ReactComponent as Instagram } from './instagram.svg'
+import { ReactComponent as SquareBulletSvg } from './squareBullet.svg'
 
 export {
 	LinkSvg,
