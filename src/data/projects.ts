@@ -18,6 +18,14 @@ export const projects: ProjectI[] = [
 		liveLink: 'https://asimhafeez.com',
 	},
 	{
+		name: 'Hacker News Clone',
+		desc:
+			'A Simple front UI of Hacker News built with Reactjs. using technologies like SCSS and Typescript',
+		languages: 'Reactjs, Typescript, SCSS',
+		githubLink: '',
+		liveLink: 'https://hackernews-one-nu.vercel.app/',
+	},
+	{
 		name: 'Say Something',
 		desc: 'An app built for fun, to say something you like.',
 		languages: 'Reactjs, Firebase, Typescript, SCSS',
