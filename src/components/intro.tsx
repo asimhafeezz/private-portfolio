@@ -10,6 +10,7 @@ export const Intro: React.FC = () => {
 					beautiful interfaces & experiences to make web more beautiful place
 					for people to spend time.
 				</p>
+
 				<a href='mailto:asimhaff@gmail.com'>
 					<button>Say Hello</button>
 				</a>
