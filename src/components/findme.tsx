@@ -1,9 +1,9 @@
-import { CodesandBox, GithubSvg, Instagram, Linkedin, Twitter } from '../icons'
-import { useScrollAnimation } from '../util/useScrollAnimation'
+import { CodesandBox, GithubSvg, Instagram, Linkedin, Twitter } from "../icons"
+import { useScrollAnimation } from "../util/useScrollAnimation"
 
 export const Findme: React.FC = () => {
 	//use animation hook
-	useScrollAnimation('.findme')
+	useScrollAnimation(".findme")
 	return (
 		<div className='container'>
 			<div className='findme'>
@@ -18,19 +18,19 @@ export const Findme: React.FC = () => {
 					</a>
 				</section>
 				<section className='socials'>
-					<a href='https://twitter.com/asimhyff' target='blank'>
+					<a href='https://twitter.com/asimhafeezz' target='blank'>
 						<Twitter />
 					</a>
 					<a href='https://codesandbox.io/u/asimhyff' target='blank'>
 						<CodesandBox />
 					</a>
-					<a href='https://github.com/asimhyff' target='blank'>
+					<a href='https://github.com/asimhafeezz' target='blank'>
 						<GithubSvg />
 					</a>
-					<a href='https://instagram.com/asimhyff' target='blank'>
+					<a href='https://instagram.com/asimhafeezz' target='blank'>
 						<Instagram />
 					</a>
-					<a href='https://linkedin.com/in/asimhyff' target='blank'>
+					<a href='https://linkedin.com/in/asimhafeezz' target='blank'>
 						<Linkedin />
 					</a>
 				</section>
