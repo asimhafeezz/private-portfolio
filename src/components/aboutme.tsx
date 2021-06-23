@@ -1,8 +1,9 @@
-import { useScrollAnimation } from '../util/useScrollAnimation'
+import { technologies } from "../data/technologies"
+import { useScrollAnimation } from "../util/useScrollAnimation"
 
 export const Aboutme: React.FC = () => {
 	//use animate hook
-	useScrollAnimation('.aboutme')
+	useScrollAnimation(".aboutme")
 
 	return (
 		<div className='container'>
@@ -12,10 +13,10 @@ export const Aboutme: React.FC = () => {
 					<section className='content'>
 						<p>
 							Hey! I’m Asim Hafeez, a Front-End Software Engineer from Pakistan.
-							I am graduated from{' '}
+							I am graduated from{" "}
 							<span>
 								<a href='https://uog.edu.pk'>University of Gujrat</a>
-							</span>{' '}
+							</span>{" "}
 							in BS Computer Science. I'm always looking for opportunities to
 							work with those who are willing to share their knowledge as much
 							as I want to learn. I prefer building things for the web that’s
@@ -25,22 +26,19 @@ export const Aboutme: React.FC = () => {
 						<p>
 							<span>
 								<b>While I'm not coding,</b>
-							</span>{' '}
+							</span>{" "}
 							I often eat, travel, or sleep...
 						</p>
 						<p>
 							<span>
 								<b>Technologies</b>
-							</span>{' '}
+							</span>{" "}
 							I'm working on,
 						</p>
 						<ul>
-							<li>Javascript (ES6+)</li>
-							<li>React Native</li>
-							<li>Html (S)CSS</li>
-							<li>Typescript</li>
-							<li>React js</li>
-							<li>Node js</li>
+							{technologies?.map((tech, techIdx) => (
+								<li key={techIdx}>{tech}</li>
+							))}
 						</ul>
 					</section>
 					<section className='image'>

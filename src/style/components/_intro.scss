@@ -1,5 +1,7 @@
 .intro {
 	@include flex-center;
+	@include container;
+	max-width: 1130px;
 	align-items: flex-start;
 	flex-direction: column;
 	height: 100vh;
@@ -19,10 +21,11 @@
 		font-size: $sm-font;
 	}
 	p {
-		max-width: 500px;
-		font-size: 15.5px;
+		max-width: 520px;
+		font-size: 14.5px;
 		line-height: 1.3;
 		text-align: justify;
+		margin: $sm-marg 0;
 	}
 	button {
 		@include button;
@@ -63,10 +66,16 @@
 		}
 	}
 	//media query
-	@include smallerThan(350px) {
+	@include smallerThan(380px) {
 		h1,
 		h2 {
 			font-size: 29px;
+		}
+	}
+	@include smallerThan(320px) {
+		h1,
+		h2 {
+			font-size: 25px;
 		}
 	}
 

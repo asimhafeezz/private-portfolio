@@ -17,6 +17,7 @@
 		p {
 			max-width: 500px;
 			text-align: center;
+			font-size: $md-font;
 		}
 		button {
 			@include button;
@@ -72,6 +73,8 @@
 
 		.github-svg {
 			transition: 0.2s;
+			width: 32px;
+			height: 33px;
 			&:hover {
 				cursor: pointer;
 				transform: translateY(-5px);

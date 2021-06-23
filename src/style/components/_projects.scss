@@ -1,5 +1,5 @@
 .projects {
-	max-width: 1100px;
+	max-width: 1050px;
 	margin: 70px auto;
 	margin-top: 120px;
 	h2 {
@@ -20,6 +20,8 @@
 				margin-bottom: 35px;
 				h3 {
 					letter-spacing: 1px;
+					font-size: $md-font !important;
+					font-weight: 500px;
 				}
 				.folder-svg {
 					path {
@@ -38,6 +40,7 @@
 					font-weight: 200;
 					text-align: justify;
 					margin-bottom: $xxl-marg;
+					font-size: $sm-font;
 				}
 				pre {
 					font-size: $sm-font;

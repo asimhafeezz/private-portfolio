@@ -4,11 +4,11 @@ interface LogoPropsI {
 
 export const Logo: React.FC<LogoPropsI> = ({ isLoading }) => {
 	return (
-		<div className={isLoading ? 'center' : ''}>
-			<div className={isLoading ? 'logo-wrapper' : 'logo-not-loading-wrapper'}>
+		<div className={isLoading ? "center" : ""}>
+			<div className={isLoading ? "logo-wrapper" : "logo-not-loading-wrapper"}>
 				<svg
-					width={!isLoading ? '37' : '55'}
-					height={!isLoading ? '47' : '65'}
+					width={!isLoading ? "32" : "55"}
+					height={!isLoading ? "42" : "65"}
 					viewBox='0 0 92 50'
 					fill='none'
 					className='logo-paths'

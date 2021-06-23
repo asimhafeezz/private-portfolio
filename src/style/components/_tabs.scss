@@ -11,6 +11,7 @@
 			border: 0;
 			font-weight: 400;
 			font-size: $md-font;
+			margin-right: 3px;
 		}
 		overflow-x: auto;
 		&::-webkit-scrollbar {
@@ -27,8 +28,10 @@
 
 	.content {
 		@include container;
+		opacity: 0;
 		max-width: 700px;
 		margin: $xl-marg auto;
+		margin-top: 0;
 		justify-content: flex-start;
 		@include card;
 		&:hover {
@@ -39,6 +42,12 @@
 			margin-bottom: $sm-marg;
 			color: $blue;
 			font-size: $lg-font;
+			margin-top: 0;
+		}
+		a {
+			color: $blue;
+			margin-left: 10px;
+			font-size: $md-font;
 		}
 		p {
 			margin-bottom: 50px;
@@ -51,7 +60,7 @@
 			ul {
 				list-style-type: none;
 				li {
-					font-size: 16px;
+					font-size: 14px;
 					@include grid;
 					grid-template-columns: 0.5fr 15fr;
 					place-items: start;

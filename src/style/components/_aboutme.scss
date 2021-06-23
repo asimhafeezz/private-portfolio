@@ -19,7 +19,8 @@
 			p {
 				text-align: justify;
 				padding: $md-pad 0;
-				font-size: 17px;
+				font-size: $md-font;
+				font-weight: 100;
 				a {
 					color: $blue;
 					text-decoration: none;
@@ -36,8 +37,8 @@
 				list-style-type: none;
 				@include grid;
 				margin-top: $lg-marg;
-				grid-template-columns: repeat(3, 1fr);
-				max-width: 500px;
+				grid-template-columns: repeat(4, 1fr);
+				max-width: 700px;
 
 				li {
 					cursor: default;
@@ -72,14 +73,14 @@
 		}
 		.image {
 			img {
-				max-width: 355px;
+				max-width: 310px;
 				min-width: 0px;
 				border-radius: 50%;
 				object-fit: cover;
 			}
 			position: relative;
 			&::after {
-				content: '';
+				content: "";
 				position: absolute;
 				top: 0;
 				left: 0;

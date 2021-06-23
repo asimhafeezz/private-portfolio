@@ -2,6 +2,7 @@
 	@include flex-between;
 	@include container;
 	max-width: 1600px;
+	margin-top: 5px;
 
 	h2 {
 		cursor: pointer;
@@ -12,7 +13,7 @@
 		@include button;
 		color: $blue;
 		border: 0;
-		font-size: 17.5px;
+		// font-size: 17.5px;
 		&:hover {
 			color: $half-white;
 		}

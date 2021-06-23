@@ -1,48 +1,42 @@
-import { SquareBulletSvg } from '../icons'
-import { SingleTab, Tab } from '../util/tab'
-import { useScrollAnimation } from '../util/useScrollAnimation'
+import { experience } from "../data/expirenece"
+import { SquareBulletSvg } from "../icons"
+import { Tab, Tabs } from "../util/tab"
+import { useScrollAnimation } from "../util/useScrollAnimation"
 export const Experience: React.FC = () => {
 	//use animate hook
-	useScrollAnimation('.experience')
+	useScrollAnimation(".experience")
+
 	return (
 		<div className='experience'>
 			<h2>Experience</h2>
-			<SingleTab>
-				<Tab title='Gulzar Soft'>
-					<h3>Software Engineer</h3>
-					<p>Sep 2020 - Present</p>
-					<section className='content-learned-items'>
-						<ul>
-							<li>
-								<SquareBulletSvg />
-								Write modern and performant code for projects
-							</li>
-							<li>
-								<SquareBulletSvg />
-								Build Web UI using React.js and with other 3rd party libraries.
-							</li>
-							<li>
-								<SquareBulletSvg />
-								Integrate RESTFUL API s on the frontend.
-							</li>
-							<li>
-								<SquareBulletSvg />
-								Work with veriety of different libraries and frameworks such as
-								javascript, Reactjs, React Native, material-Ui, styled
-								components.
-							</li>
-							<li>
-								<SquareBulletSvg />
-								Communitcate and collaborate with team on daily basis.
-							</li>
-							<li>
-								<SquareBulletSvg />
-								Test Apps , fixing bugs and writing optimized code.
-							</li>
-						</ul>
-					</section>
-				</Tab>
-			</SingleTab>
+			<Tabs>
+				{experience?.map(({ title, content }, expIdx) => (
+					<Tab title={title} key={expIdx}>
+						<h3>
+							{content.workingAsA}
+							{content?.website && (
+								<span>
+									<a href={content?.website} target='blank'>
+										@{title}
+									</a>
+								</span>
+							)}
+						</h3>
+
+						<p>{content.workDuration}</p>
+						<section className='content-learned-items'>
+							<ul>
+								{content.learned.map((learn, learnIdx) => (
+									<li key={learnIdx}>
+										<SquareBulletSvg />
+										{learn}
+									</li>
+								))}
+							</ul>
+						</section>
+					</Tab>
+				))}
+			</Tabs>
 		</div>
 	)
 }

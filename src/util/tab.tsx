@@ -1,10 +1,8 @@
-import React, { useState } from 'react'
+import gsap from "gsap"
+import React, { useEffect, useState } from "react"
 
 interface TabsPropI {
 	children: React.ReactElement[]
-}
-interface SingleTabPropI {
-	children: React.ReactElement
 }
 interface TabPropI {
 	title: string
@@ -17,12 +15,22 @@ export const Tabs: React.FC<TabsPropI> = ({ children }) => {
 		setActiveTab(newActiveTab)
 	}
 
+	useEffect(() => {
+		const unsub = () => {
+			gsap.to(".content", {
+				opacity: 1,
+				duration: 1.5,
+			})
+		}
+		return unsub()
+	}, [activeTab])
+
 	return (
 		<div className='tabs'>
 			<ul className='tabs-items'>
 				{children.map((child, i) => (
 					<li
-						className={child.props.title === activeTab ? 'active-tab' : ''}
+						className={child.props.title === activeTab ? "active-tab" : ""}
 						onClick={() => onButtonClickHandler(child.props.title)}
 						key={i}>
 						{child.props.title}
@@ -44,16 +52,4 @@ export const Tabs: React.FC<TabsPropI> = ({ children }) => {
 
 export const Tab: React.FC<TabPropI> = ({ children }) => {
 	return <div>{children}</div>
-}
-
-//just single tab
-export const SingleTab: React.FC<SingleTabPropI> = ({ children }) => {
-	return (
-		<div className='tabs'>
-			<ul className='tabs-items'>
-				<li className='active-tab'>{children.props.title}</li>
-			</ul>
-			<div className='content'>{children}</div>
-		</div>
-	)
 }

@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import 'variables';
-@import 'mixins';
-@import 'global';
-@import 'util';
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+@import "variables";
+@import "mixins";
+@import "global";
+@import "util";
 
 //components
-@import './components/index';
+@import "./components/index";
