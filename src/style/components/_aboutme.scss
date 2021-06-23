@@ -99,6 +99,11 @@
 					max-width: 280px;
 				}
 			}
+			@include smallerThan(280px) {
+				img {
+					max-width: 200px;
+				}
+			}
 		}
 
 		@include smallerThan(820px) {

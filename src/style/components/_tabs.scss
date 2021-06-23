@@ -45,9 +45,13 @@
 			margin-top: 0;
 		}
 		a {
-			color: $blue;
+			color: $half-white;
 			margin-left: 10px;
-			font-size: $md-font;
+			font-size: $lg-font;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
 		}
 		p {
 			margin-bottom: 50px;

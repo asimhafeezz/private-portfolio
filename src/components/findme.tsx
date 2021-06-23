@@ -21,7 +21,7 @@ export const Findme: React.FC = () => {
 					<a href='https://twitter.com/asimhafeezz' target='blank'>
 						<Twitter />
 					</a>
-					<a href='https://codesandbox.io/u/asimhyff' target='blank'>
+					<a href='https://codesandbox.io/u/asimhafeezz' target='blank'>
 						<CodesandBox />
 					</a>
 					<a href='https://github.com/asimhafeezz' target='blank'>

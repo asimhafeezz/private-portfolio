@@ -17,7 +17,7 @@ export const experience: experienceI[] = [
 			website: "https://vappar.com/",
 			learned: [
 				"Design Architecture for Frontend Web Applications with team.",
-				"Works on IoT Product Frontend Development",
+				"Works on IoT Product Frontend Development.",
 				"Collaborate and Communitcate with Designing & Backend teams daily",
 				"Develop Web App’s UI using React.js and with other 3rd party libraries.",
 				"Integrate GraphQL & REST API’s on the frontend.",
