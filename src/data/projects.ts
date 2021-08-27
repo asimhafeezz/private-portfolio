@@ -64,11 +64,11 @@ export const projects: ProjectI[] = [
 		githubLink: "https://github.com/asimhyff/events-finder",
 		liveLink: "https://events-finder.netlify.app/",
 	},
-	{
-		name: "Albums",
-		desc: "An app created in react native, that allows users to filter albums according to artists and let them buy it by using links.",
-		languages: "React-Native, CSS-in-Js, JSON",
-		githubLink: "https://github.com/asimhyff/Albums",
-		liveLink: "",
-	},
+	// {
+	// 	name: "Albums",
+	// 	desc: "An app created in react native, that allows users to filter albums according to artists and let them buy it by using links.",
+	// 	languages: "React-Native, CSS-in-Js, JSON",
+	// 	githubLink: "https://github.com/asimhyff/Albums",
+	// 	liveLink: "",
+	// },
 ]

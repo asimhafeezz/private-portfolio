@@ -14,7 +14,7 @@ export const Findme: React.FC = () => {
 						say hi, I'll try my best to get back to you!
 					</p>
 					<a href='mailto:asimhaff@gmail.com'>
-						<button>Drop a Note</button>
+						<>Drop a Note</>
 					</a>
 				</section>
 				<section className='socials'>

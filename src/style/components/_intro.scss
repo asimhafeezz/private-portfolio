@@ -27,9 +27,10 @@
 		text-align: justify;
 		margin: $sm-marg 0;
 	}
-	button {
+	a {
 		@include button;
 		margin: $lg-marg 0;
+		text-decoration: none;
 	}
 
 	@include smallerThan(1050px) {
