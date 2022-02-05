@@ -51,5 +51,5 @@ export const Tabs: React.FC<TabsPropI> = ({ children }) => {
 }
 
 export const Tab: React.FC<TabPropI> = ({ children }) => {
-	return <div>{children}</div>
+	return <div className='single-tab'>{children}</div>
 }
