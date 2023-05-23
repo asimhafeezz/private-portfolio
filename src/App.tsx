@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react'
-import './style/main.scss'
+import { useEffect, useState } from "react"
+import "./style/main.scss"
 import {
 	Appbar,
 	Intro,
@@ -8,9 +8,9 @@ import {
 	Footer,
 	Findme,
 	Experience,
-} from './components'
-import { Logo } from './icons'
-import { Layout } from './common/layout'
+} from "./components"
+import { Logo } from "./icons"
+import { Layout } from "./common/layout"
 
 const App = () => {
 	//local state
@@ -30,8 +30,8 @@ const App = () => {
 			<Appbar />
 			<Intro />
 			<Aboutme />
-			<Experience />
-			<Projects />
+			{/* <Experience />
+			<Projects /> */}
 			<Findme />
 			<Footer />
 		</Layout>

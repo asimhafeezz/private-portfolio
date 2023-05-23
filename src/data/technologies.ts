@@ -1,9 +1,13 @@
 export const technologies: string[] = [
-	"Javascript (ES6+)",
-	"HTML (S)CSS",
+	"Javascript",
+	"AWS",
+	"GO",
 	"Typescript",
-	"Node js",
-	"React js",
-	"GraphQL",
+	"Solidity",
+	"Node.js",
+	"React.js",
 	"Docker",
+	"MongoDB",
+	"Kafka",
+	"Redis",
 ]

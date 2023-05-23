@@ -12,16 +12,18 @@ export const Aboutme: React.FC = () => {
 				<section className='aboutme-grid'>
 					<section className='content'>
 						<p>
-							Hey! I’m Asim Hafeez, a Front-End Software Engineer from Pakistan.
-							I am graduated from{" "}
-							<span>
-								<a href='https://uog.edu.pk'>University of Gujrat</a>
-							</span>{" "}
-							in BS Computer Science. I'm always looking for opportunities to
-							work with those who are willing to share their knowledge as much
-							as I want to learn. I prefer building things for the web that’s
-							why I love working in javascript to build Web Application, more
-							scale able, pixel-perfect and more efficient.
+							Hey! I’m Asim Hafeez, a Software Engineer having expertise in
+							building Web Applications and services using different
+							architectures like Monolithic, SOA, and microservices. My
+							extensive knowledge of blockchain technology includes
+							certifications and proficiency in developing and deploying smart
+							contracts on Ethereum Blockchain using Solidity, Hardhat/Truffle,
+							Chainlink, and Alchemy. I also build CI/CD pipelines using AWS
+							services and serverless backend architecture using AWS services
+							such as S3, API Gateway, DynamoDB and Lambda has allowed me to
+							design and develop highly scalable and reliable web applications
+							that can be easily deployed and maintained using the AWS cloud
+							infrastructure.
 						</p>
 						<p>
 							<span>

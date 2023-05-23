@@ -3,12 +3,9 @@ export const Intro: React.FC = () => {
 		<div className='intro'>
 			<p>Hey, My name is</p>
 			<h1>Asim Hafeez.</h1>
-			<h2>I build web things.</h2>
-			<p>
-				I’m a Software Engineer based in Pakistan focused on building beautiful
-				interfaces & experiences to make web more beautiful place for people to
-				spend time.
-			</p>
+			<p>& I like to know</p>
+			<h2>How things work?</h2>
+			<p>Currently learning Distributed Systems!</p>
 
 			<a href='mailto:asimhafeezz@icloud.com'>
 				<>Say Hello</>
